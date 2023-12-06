@@ -123,3 +123,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# for disable browse able api and show data in plain formate.
+# REST_FRAMEWORK = {
+#     'DEFAULT_RENDERED_CLASSES':('rest_framework.renderers.JSONRenderer')
+# }
